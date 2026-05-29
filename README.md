@@ -15,18 +15,18 @@ in strict sequential order.
 
 ---
 
-## 🎯 Mission Flow
-🗺️  Autonomous Exploration  →  Full map coverage using SLAM
-📦  Shelf 1                 →  Navigate → Decode QR → Detect & Publish Objects
-📦  Shelf 2 (unlocked)      →  Navigate → Decode QR → Detect & Publish Objects
-📦  Shelf 3 (unlocked)      →  Navigate → Decode QR → Detect & Publish Objects
-📦  Shelf 4 (unlocked)      →  Navigate → Decode QR → Detect & Publish Objects
-> ⚠️ Each shelf only unlocks **after** the previous shelf's QR is decoded
+##  Mission Flow
+  Autonomous Exploration  →  Full map coverage using SLAM
+  Shelf 1                 →  Navigate → Decode QR → Detect & Publish Objects
+  Shelf 2 (unlocked)      →  Navigate → Decode QR → Detect & Publish Objects
+  Shelf 3 (unlocked)      →  Navigate → Decode QR → Detect & Publish Objects
+  Shelf 4 (unlocked)      →  Navigate → Decode QR → Detect & Publish Objects
+>  Each shelf only unlocks **after** the previous shelf's QR is decoded
 > and object data is successfully published.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Autonomous Exploration** — Full map coverage before shelf scanning begins
 - **QR Code Scanning** — Decodes shelf QR codes to unlock the next shelf
@@ -36,7 +36,7 @@ in strict sequential order.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -50,19 +50,6 @@ in strict sequential order.
 
 ---
 
-## 📁 Project Structure
-nxp-aim-2025/
-├── NXP_AIM_INDIA_2025/         # Main ROS2 package
-│   ├── resource/               # Assets, layouts, model files
-│   ├── test/                   # Unit tests
-│   ├── setup.py                # Package setup
-│   ├── setup.cfg               # Package config
-│   └── nav2.yaml               # Navigation parameters
-├── nav_through_poses_bt.xml    # Behavior Tree - multi-pose nav
-├── nav_to_pose_bt.xml          # Behavior Tree - single pose nav
-├── slam.yaml                   # SLAM Toolbox config
-└── README.md
----
 
 ## ⚙️ Setup & Installation
 
@@ -113,7 +100,7 @@ ros2 launch nxp_aim_india_2025 shelf_scan.launch.py
 
 ---
 
-## 📡 ROS2 Topics
+## ROS2 Topics
 
 | Topic | Type | Description |
 |---|---|---|
@@ -124,7 +111,7 @@ ros2 launch nxp_aim_india_2025 shelf_scan.launch.py
 
 ---
 
-## 👥 Team
+##Team
 
 - **Team Name:** smartpenguin25
 - **Competition:** NXP AIM India 2025
@@ -134,4 +121,4 @@ ros2 launch nxp_aim_india_2025 shelf_scan.launch.py
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source
