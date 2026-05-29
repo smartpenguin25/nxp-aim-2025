@@ -1,4 +1,4 @@
-# 🤖 NXP AIM 2025 — Autonomous Rover
+# NXP AIM 2025 — Autonomous Rover
 
 > Autonomous warehouse rover for the **NXP AIM India 2025** competition.
 > Built on ROS2 Humble, the rover performs full map exploration, sequential
